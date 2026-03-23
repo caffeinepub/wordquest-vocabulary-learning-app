@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component managing game state, level progression, achievements tracking, and coordinating all game dialogs and panels with localStorage persistence.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching puzzles, achievements, story segments, and tutorials from the backend canister.",
+  "frontend/src/components/Header.tsx": "Top navigation bar with branding, tutorial access, achievements panel trigger, and progress reset functionality.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with attribution and link to caffeine.ai.",
+  "frontend/src/components/GameBoard.tsx": "Core game interface displaying current puzzle, coded message, answer input, verification logic, hint system, and decoder tools.",
+  "frontend/src/components/TutorialDialog.tsx": "Modal dialog with tabbed interface explaining different cipher types, examples, and decoding strategies.",
+  "frontend/src/components/AchievementsPanel.tsx": "Modal panel displaying all achievements with earned/locked states and badge icons.",
+  "frontend/src/components/StoryDialog.tsx": "Modal dialog showing story narrative after completing each level with continuation to next mission.",
+  "frontend/src/components/DecoderWheel.tsx": "Interactive Caesar cipher decoder tool with adjustable shift amount and real-time encoding/decoding.",
+  "frontend/src/components/MorseSimulator.tsx": "Morse code encoder/decoder tool with bidirectional conversion between text and morse code.",
+  "frontend/src/index.css": "Global styles with spy-themed OKLCH color system featuring purple/blue tones for both light and dark modes with custom glow animations."
+}
